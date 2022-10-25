@@ -1,0 +1,80 @@
+h2 {
+  color: black;
+  text-align: left;
+  font-family:sans-serif;
+  font-weight:500
+}
+img {
+    display: block;
+    margin: auto;
+}
+.wall1 {
+    background-color: white;
+}
+.mainbox {
+    width: 100%;
+    height: 85vh;
+    background-image: url(/Images/cooking1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.topbar {
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    background:rgba(250,250,250,0.8)
+}
+.brandlogo {
+    float: left;
+    width: 130px;
+    padding: 10px;
+    padding-left: 60px;
+}
+.topbar ul {
+    display: inline-table;
+    padding-right: 8%;
+    font-size:small;
+}
+
+.topbar ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+    position:relative;
+}
+.topbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: small;
+    font-family:sans-serif;
+}
+.introbox {
+    width: 520px;
+    height: 70px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 255px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    background-color:rgba(250,250,250,0.35)
+}
+h3 {
+    text-align: center;
+    font-family: system-ui;
+    font-size: medium;
+    color: white;
+    font-weight: 450;
+}
+.foodcir {
+    margin-left: 0;
+    width: 200px;
+    border-radius: 100px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}

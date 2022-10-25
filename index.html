@@ -5,18 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top 3 Recipes for Dinner</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Top 3 Recipes for Dinner</h1>
-    <img src="/Images/Dinner Sunset.jpeg" alt="Dinner Sunset" />
+    <div class="mainbox">
+      <div class="topbar">
+        <img class="brandlogo" , src="/Images/CKlogo2.png" alt="Chef's Kitchen" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <div class="introbox">
+        <h3>
+          This recipe website was a project tasked from The Odin Project. The goal was to create a
+          small recipe website using HTML and CSS.
+        </h3>
+      </div>
+    </div>
+    <h2>Top 3 Recipes for Dinner</h2>
     <ul>
       <li>
-        <a href="/recipes/Garlic-Parmesan-Shrimp.html"
-          >Garlic-Parmesan Shrimp</a
-        >
+        <div>
+          <img class="foodcir" src="/Images/Shirmp1c.jpg" alt="shrimp" />
+          <a href="/recipes/Garlic-Parmesan-Shrimp.html">Garlic-Parmesan Shrimp</a>
+        </div>
       </li>
-      <li><a href="/recipes/Chicken-Pot-Pie.html">Chicken Pot Pie</a></li>
-      <li><a href="/recipes/Mashed Potatoes.html">Mashed Potatoes</a></li>
+      <li>
+        <div>
+          <img class="foodcir" src="/Images/CPP1c.jpg" alt="Chicken Pot Pie" />
+          <a href="/recipes/Chicken-Pot-Pie.html">Chicken Pot Pie</a>
+        </div>
+      </li>
+      <li>
+        <div>
+          <img class="foodcir" src="/Images/MP1c.jpg" alt="Mashed Potatoes" />
+          <a href="/recipes/Mashed Potatoes.html">Mashed Potatoes</a>
+        </div>
+      </li>
     </ul>
   </body>
 </html>
